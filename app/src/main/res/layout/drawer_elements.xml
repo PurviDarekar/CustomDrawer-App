@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:overScrollMode="never"
+            android:scrollbars="none">
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_5sdp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="@dimen/_5sdp"
+                    android:layout_marginHorizontal="@dimen/_5sdp"
+                    android:layout_marginVertical="@dimen/_10sdp">
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="@dimen/_100sdp"
+                        android:layout_height="@dimen/_50sdp"
+                        android:src="@drawable/img_product"
+                        android:layout_marginVertical="@dimen/_5sdp">
+
+                    </de.hdodenhof.circleimageview.CircleImageView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="256 follower"
+                        android:layout_marginHorizontal="@dimen/_10sdp"
+                        android:padding="@dimen/_5sdp"
+                        android:drawableLeft="@drawable/icon_followers"
+                        android:drawablePadding="@dimen/_5sdp">
+
+                    </TextView>
+                    <View
+                        android:layout_marginVertical="@dimen/_5sdp"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#D3D3D3">
+
+                    </View>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="@dimen/_5sdp"
+                    android:layout_marginHorizontal="@dimen/_5sdp"
+                    android:layout_marginVertical="@dimen/_10sdp">
+
+                    <TextView
+                        android:id="@+id/tvProfile"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Profile"
+                        android:layout_marginHorizontal="@dimen/_10sdp"
+                        android:layout_marginVertical="@dimen/_2sdp"
+                        android:padding="@dimen/_5sdp"
+                        android:drawableLeft="@drawable/icon_person"
+                        android:drawablePadding="@dimen/_5sdp">
+
+                    </TextView>
+                    <TextView
+                        android:id="@+id/tvMessage"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Messages"
+                        android:layout_marginVertical="@dimen/_2sdp"
+                        android:layout_marginHorizontal="@dimen/_10sdp"
+                        android:padding="@dimen/_5sdp"
+                        android:drawableLeft="@drawable/icon_messages"
+                        android:drawablePadding="@dimen/_5sdp">
+
+                    </TextView>
+                    <TextView
+                        android:id="@+id/tvActivity"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Activities"
+                        android:layout_marginHorizontal="@dimen/_10sdp"
+                        android:padding="@dimen/_5sdp"
+                        android:drawableLeft="@drawable/icon_activities"
+                        android:drawablePadding="@dimen/_5sdp">
+
+                    </TextView>
+                    <TextView
+                        android:id="@+id/tvLists"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Lists"
+                        android:layout_marginVertical="@dimen/_2sdp"
+                        android:layout_marginHorizontal="@dimen/_10sdp"
+                        android:padding="@dimen/_5sdp"
+                        android:drawableLeft="@drawable/icon_list"
+                        android:drawablePadding="@dimen/_5sdp">
+
+                    </TextView>
+                    <TextView
+                        android:id="@+id/tvReports"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Reports"
+                        android:layout_marginHorizontal="@dimen/_10sdp"
+                        android:padding="@dimen/_5sdp"
+                        android:drawableLeft="@drawable/icon_reports"
+                        android:drawablePadding="@dimen/_5sdp">
+
+                    </TextView>
+                    <TextView
+                        android:id="@+id/tvStats"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Statistic"
+                        android:layout_marginVertical="@dimen/_2sdp"
+                        android:layout_marginHorizontal="@dimen/_10sdp"
+                        android:padding="@dimen/_5sdp"
+                        android:drawableLeft="@drawable/icon_strategy"
+                        android:drawablePadding="@dimen/_5sdp">
+
+                    </TextView>
+                    <TextView
+                        android:id="@+id/tvLogout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Logout"
+                        android:layout_marginVertical="@dimen/_2sdp"
+                        android:layout_marginHorizontal="@dimen/_10sdp"
+                        android:padding="@dimen/_5sdp"
+                        android:drawableLeft="@drawable/icon_logout"
+                        android:drawablePadding="@dimen/_5sdp">
+
+                    </TextView>
+                    <View
+                        android:layout_marginVertical="@dimen/_5sdp"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#D3D3D3">
+
+                    </View>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="@dimen/_5sdp"
+                    android:layout_marginHorizontal="@dimen/_5sdp"
+                    android:layout_marginVertical="@dimen/_10sdp">
+
+                    <TextView
+                        android:id="@+id/tvShare"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Tell a friend"
+                        android:layout_marginHorizontal="@dimen/_10sdp"
+                        android:layout_marginVertical="@dimen/_2sdp"
+                        android:padding="@dimen/_5sdp"
+                        android:drawableLeft="@drawable/icon_share"
+                        android:drawablePadding="@dimen/_5sdp">
+
+                    </TextView>
+                    <TextView
+                        android:id="@+id/tvHelp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Help and Feedback"
+                        android:layout_marginHorizontal="@dimen/_10sdp"
+                        android:layout_marginVertical="@dimen/_2sdp"
+                        android:padding="@dimen/_5sdp"
+                        android:drawableLeft="@drawable/icon_help"
+                        android:drawablePadding="@dimen/_5sdp">
+                    </TextView>
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </ScrollView>
+
+
+
+    </RelativeLayout>
+</layout>
